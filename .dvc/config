@@ -1,4 +1,6 @@
 [core]
-    remote = myremote
+    remote = storage
 ['remote "myremote"']
     url = gs://sirion-dev-qaca-instance-bucket/
+['remote "storage"']
+    url = gs://sirion-dev-qaca-instance-bucket/DVC_DataStore
